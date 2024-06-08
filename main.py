@@ -1,3 +1,5 @@
+# Flash Cards #
+
 # ------------[Imports]------------ #
 import tkinter, sv_ttk, configparser, time, random
 from tkinter import ttk
