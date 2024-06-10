@@ -53,7 +53,6 @@ def main():
     
     # Places Answer Buttons # 
     random.shuffle(btn_coords)
-    bg_color = "grey"
     btn1 = ttk.Button(root,text=answer,command=lambda:[destroy_button(btn1,btn2,btn3,btn4,question),correct()],style="TButton.font_regular.TButton")
     btn1.place(x=btn_coords[0][0],
                y=btn_coords[0][1],
@@ -108,7 +107,6 @@ def destroy_button(btn1,btn2,btn3,btn4,question):
     return
 
 def generate_wrong_right():
-    
     return 
     
 # ------------[Stuff]------------ #
